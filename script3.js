@@ -12,7 +12,7 @@
     });
   
     equal.addEventListener('click', function(e) {
-      if (screen.value === 'undefine') {
+      if (screen.value === 'undefined') {
         screen.value = "Please Enter";
       } else {
         try {
